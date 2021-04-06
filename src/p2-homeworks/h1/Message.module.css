@@ -1,0 +1,129 @@
+.topBlock {
+    background-image: url("https://pm1.narvii.com/6390/b1081657ace5e5f58c263c09898e4279d4dfd022_hq.jpg");
+    background-size: cover;
+
+    height: 600px;
+    width: 100%;
+}
+
+.Blocks {
+
+    display: flex;
+
+}
+
+.Blocks2 {
+
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+
+}
+
+.allBlock {
+    position: relative;
+    width: 350px;
+    padding: 15px;
+    background: #45d20c;
+    opacity: .8;
+    border-radius: 50px;
+    height: 150px;
+    margin-top: 70px;
+    margin-left: 40px;
+    align-items: center;
+
+}
+
+.allBlock:after {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 15px 16px 15px 0;
+    width: 0;
+    z-index: 0;
+    margin-top: -65px;
+    left: -16px;
+    border-color: transparent #45d20c;
+}
+
+.avatarBlock img {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    border: 1px solid #ee6d06;
+    margin-top: 160px;
+    margin-left: 20px;
+
+}
+
+
+.nameBlock {
+    color: #2040cf;
+    margin: 20px 0 0 20px;
+
+}
+
+
+.messageBlock {
+
+    margin: 40px 0 0 20px;
+}
+
+
+.timeBlock {
+    margin: 30px 0 0 300px;
+
+}
+
+.allBlock2 {
+    position: relative;
+    width: 350px;
+    padding: 15px;
+    background: #45d20c;
+    opacity: .8;
+    border-radius: 50px;
+    height: 150px;
+    margin-top: 70px;
+    margin-left: 40px;
+    align-items: center;
+}
+
+.allBlock2:after {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 15px 0 15px 15px;
+    width: 0;
+    z-index: 0;
+    margin-top: -60px;
+    left: 379px;
+    border-color: transparent #45d20c;
+}
+
+.avatarBlock2 img {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    border: 1px solid #ee6d06;
+    margin-top: 160px;
+    margin-left: 40px;
+    margin-right: 20px;
+
+}
+
+.nameBlock2 {
+    color: #2040cf;
+    margin: 20px 0 0 20px;
+
+}
+
+.messageBlock2 {
+    margin: 40px 0 0 20px;
+
+}
+
+.timeBlock2 {
+    margin: 30px 0 0 300px;
+
+
+}

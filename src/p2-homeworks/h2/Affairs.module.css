@@ -1,0 +1,45 @@
+.buttons {
+    width: 50px;
+    height: 25px;
+    background: #ffffff;
+    border-radius: 7px;
+    font-size: 17px;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    min-width: 100px;
+
+}
+
+.buttons:hover {
+    background: #90b887;
+}
+
+.buttons:focus {
+    outline: none;
+    box-shadow: 0 2px 0 0 #737070;
+    background: #69ff00;
+}
+
+.buttons:active {
+    transform: translateY(4px);
+}
+
+.x_button {
+    background: #7ac64f;
+    border-radius: 7px;
+    width: 30px;
+    height: 30px;
+
+}
+
+.x_button a {
+    color: #d24b0c;
+    font-size: 20px;
+    margin-right: 5px;
+    outline: none;
+}
+
+.name {
+    font-size: 30px;
+    color: #d9a31c;
+}

@@ -1,0 +1,24 @@
+.someClass {
+    text-align: center;
+}
+
+.error {
+    border: 1px solid red;
+}
+
+.error_title {
+   color: red;
+}
+
+.button {
+    border-radius: 4px;
+    background-color: #2ca538;
+}
+
+.button_error {
+    background-color: red;
+}
+
+.span {
+  color: #642ca5;
+}
